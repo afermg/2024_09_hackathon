@@ -1,0 +1,49 @@
+#+title: 2024 Hackathon
+
+* Goal
+** Host both biologists and computer scientists to have them explore the JUMP dataset for multiple purposes:
+*** Biologists have questions, let us pair them with computer scientists to try to find solutions and follow-up questions
+*** Facilitate CS to focus on trying to break a benchmark
+*** Keep the data and access APIs available before and after
+
+* Registration
+** Alongside SBI2/Cytodata.
+*** TODO Confirm with Beth that they are happy to add a checkbox within registration
+
+* On-the-day agenda (<2024-09-17 Tue>)
+broad.io/hackaton_schedule
+
+- A: Acadia/Yellowstone if possible
+- B: Acadia
+- C: Joshua Tree
+
+|         Time | Agenda                     | Location(s) | Notes                                                                                             | Leading/Presenting      |
+|--------------+----------------------------+-------------+---------------------------------------------------------------------------------------------------+-------------------------|
+|  08:30-09:00 | Registration and Breakfast | Lobby       |                                                                                                   | @Alan, @Assistants      |
+|  09:00-10:00 | Introduction / Hello world | A           | This is when we use a nobtebook to ensure everyone has access to the data with a set environment. | @Anne, @Shantanu, @Alan |
+|  10:00-12:00 | First session              | B,C         | Split into groups of 3-4. Project outline/bio question.                                           | @Assistants             |
+|  12:00-13:00 | Lunch                      | A,B,C       |                                                                                                   |                         |
+|  13:00-15:40 | Second session             | B,C         | Implementation and course adjustment.                                                             | @Assistants             |
+|  15:40-16:00 | Coffee break               | A,B,C       |                                                                                                   |                         |
+| 16:00- 18:00 | Third session              | B,C         | Wrapping up questions if possible; establish necessary tasks to answer question.                  | @Assistants             |
+|  18:00-19:00 | Wrap up presentations      | A           | Groups give a 5-8 min presentation                                                                | @Alan, @Teams           |
+
+Total number of working hours: (2 + 2:40 + 2 ) = 6:40
+
+* Logistics
+** How many people do we expect? (40-60)
+** How to split groups?
+
+* Rooms
+The number of people they fit is optimistic, not for tables.
+*** M1 (confirmed - EWSC space in top of Stanley building)
+- Room A: 75A-M1-Acadia (M107A) (39) [projector, zoom room]
+- Room B: 75A-M1-Joshua Tree (M1201) (32) [TV Cart, zoom room]
+- 75A-M1-Badlands (M1204) (12) [TV, zoom room]
+- 75A-M1-Crater Lake (M1205) (17) [display, zoom room]
+*** Secondary Hold
+- 415M-2-Monadnock (2040) (125) [desktop pc, microphone + speaker system, projector, touch panel phone, webcam]
+- 75A-2-Yellowstone (2001) (125) [desktop pc, microphone
+
+* Shared document:
+https://docs.google.com/document/d/1-nn3Xuqn2GZ0wzJgxDdN0fxc5GwDsMQLXXhqavip1ZE/edit#heading=h.arv0qyffct5i
