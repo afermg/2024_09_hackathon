@@ -1,10 +1,23 @@
 #+title: 2024 Hackathon
 
-* Goal
+* Goal(s)
 ** Host both biologists and computer scientists to have them explore the JUMP dataset for multiple purposes:
 *** Biologists have questions, let us pair them with computer scientists to try to find solutions and follow-up questions
-*** Facilitate CS to focus on trying to break a benchmark
-*** Keep the data and access APIs available before and after
+*** Encourage folks to apply their own methods, knowledge and skills to mine biology
+*** Facilitate CS to focus on trying to break a benchmark (would require to develop a benchmark)
+**** People with a more techincal bioinfo question may evaluate if the data is useful
+**** @Juan: Compound bioactivity (phenotypic activity) to train classifiers. This is evaluable quantitatively. Predicting single assay outcome using witheld subsets of the data. Q: Do these annotations exist for JUMP?
+**** GOAL? Attempt to reproduce the annotated hits by building.
+
+** Additional goals
+*** Expose community to JUMP
+*** Raise awareness and exposure to the data
+*** Presentations are work in progress
+*** (For participants): Learning something new and build (or discover) something that can be followed-up
+
+** Prizes
+- Best contribution to an open source library
+- Best biological hypothesis/discovery
 
 * Registration
 ** Alongside SBI2/Cytodata.
@@ -31,8 +44,11 @@ broad.io/hackaton_schedule
 Total number of working hours: (2 + 2:40 + 2 ) = 6:40
 
 * Logistics
+*** Keep the data and access APIs available before and after
 ** How many people do we expect? (40-60)
 ** How to split groups?
+a) Assemble groups from  bio and cs folks
+b)
 
 * Rooms
 The number of people they fit is optimistic, not for tables.
