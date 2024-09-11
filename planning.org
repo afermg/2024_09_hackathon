@@ -1,27 +1,32 @@
 #+title: 2024 Hackathon
 
 * Goal(s)
-** Host both biologists and computer scientists to have them explore the JUMP dataset for multiple purposes:
-*** Biologists have questions, let us pair them with computer scientists to try to find solutions and follow-up questions
-*** Encourage folks to apply their own methods, knowledge and skills to mine biology
-*** Facilitate CS to focus on trying to break a benchmark (would require to develop a benchmark)
-**** People with a more techincal bioinfo question may evaluate if the data is useful
+** Primary goals:
+- Biologists have questions, let us pair them with computer scientists to try to find solutions and follow-up questions
+- Encourage folks to apply their own methods, knowledge and skills to mine biology
+- Facilitate CS to focus on trying to break a benchmark (would require to develop a benchmark)
+**** People with a more techincal bioinfo question may want to evaluate the usefulness of the data
 **** @Juan: Compound bioactivity (phenotypic activity) to train classifiers. This is evaluable quantitatively. Predicting single assay outcome using witheld subsets of the data. Q: Do these annotations exist for JUMP?
 **** GOAL? Attempt to reproduce the annotated hits by building.
-
 ** Additional goals
-*** Expose community to JUMP
-*** Raise awareness and exposure to the data
-*** Presentations are work in progress
-*** (For participants): Learning something new and build (or discover) something that can be followed-up
-
+*** For the organisers
+- Expose community to the JUMP dataset and its associated tools
+- Foster collaborations between biologists and computer scientists
+*** For participants
+- Learning something new and build (or discover) something that can be followed-up
 ** Prizes
 - Best contribution to an open source library
 - Best biological hypothesis/discovery
 
 * Registration
+We will have our own registration fee and charge a symbolic amount for the lunch (10).
 ** Alongside SBI2/Cytodata.
-*** TODO Confirm with Beth that they are happy to add a checkbox within registration
+*** NO Confirm with Beth that they are happy to add a checkbox within registration
+CLOSED: [2024-05-20 Mon 10:13:20]
+** Questionnaire
+*** Could you add some tags of interest? These will be used to form interdisciplinary teams.
+*** Do you have a specific biological question you aim to answer using JUMP?
+***
 
 * On-the-day agenda (<2024-09-17 Tue>)
 broad.io/hackaton_schedule
@@ -29,17 +34,19 @@ broad.io/hackaton_schedule
 - A: Acadia/Yellowstone if possible
 - B: Acadia
 - C: Joshua Tree
+- D: Serengeti (for common area)
 
+** Timetable
 |         Time | Agenda                     | Location(s) | Notes                                                                                             | Leading/Presenting      |
 |--------------+----------------------------+-------------+---------------------------------------------------------------------------------------------------+-------------------------|
-|  08:30-09:00 | Registration and Breakfast | Lobby       |                                                                                                   | @Alan, @Assistants      |
-|  09:00-10:00 | Introduction / Hello world | A           | This is when we use a nobtebook to ensure everyone has access to the data with a set environment. | @Anne, @Shantanu, @Alan |
-|  10:00-12:00 | First session              | B,C         | Split into groups of 3-4. Project outline/bio question.                                           | @Assistants             |
-|  12:00-13:00 | Lunch                      | A,B,C       |                                                                                                   |                         |
-|  13:00-15:40 | Second session             | B,C         | Implementation and course adjustment.                                                             | @Assistants             |
-|  15:40-16:00 | Coffee break               | A,B,C       |                                                                                                   |                         |
-| 16:00- 18:00 | Third session              | B,C         | Wrapping up questions if possible; establish necessary tasks to answer question.                  | @Assistants             |
-|  18:00-19:00 | Wrap up presentations      | A           | Groups give a 5-8 min presentation                                                                | @Alan, @Teams           |
+|  08:30-09:00 | Registration and Breakfast | D           |                                                                                                   | @Alan, @Assistants      |
+|  09:00-10:00 | Introduction / Hello world | D           | This is when we use a nobtebook to ensure everyone has access to the data with a set environment. | @Anne, @Shantanu, @Alan |
+|  10:00-12:00 | First session              | A,B,C,D     | Split into groups of 3-4. Project outline/bio question.                                           | @Assistants             |
+|  12:00-13:00 | Lunch                      | D           |                                                                                                   |                         |
+|  13:00-15:40 | Second session             | A,B,C,D     | Implementation and course adjustment.                                                             | @Assistants             |
+|  15:40-16:00 | Coffee break               | A,D         |                                                                                                   |                         |
+| 16:00- 18:00 | Third session              | A,B,C,D     | Wrapping up questions if possible; establish necessary tasks to answer question.                  | @Assistants             |
+|  18:00-19:00 | Wrap up presentations      | D           | Groups give a 5-8 min presentation                                                                | @Alan, @Teams           |
 
 Total number of working hours: (2 + 2:40 + 2 ) = 6:40
 
@@ -48,18 +55,169 @@ Total number of working hours: (2 + 2:40 + 2 ) = 6:40
 ** How many people do we expect? (40-60)
 ** How to split groups?
 a) Assemble groups from  bio and cs folks
-b)
+b) Allow for pre-made groups to join if they have a question
 
+*** Amenities
+  
+  
 * Rooms
 The number of people they fit is optimistic, not for tables.
-*** M1 (confirmed - EWSC space in top of Stanley building)
+*** M1 (confirmed - EWSC space on top of Stanley building)
 - Room A: 75A-M1-Acadia (M107A) (39) [projector, zoom room]
 - Room B: 75A-M1-Joshua Tree (M1201) (32) [TV Cart, zoom room]
 - 75A-M1-Badlands (M1204) (12) [TV, zoom room]
 - 75A-M1-Crater Lake (M1205) (17) [display, zoom room]
-*** Secondary Hold
+- Serengeti
+*** NO Secondary Hold These ware not available
+CLOSED: [2024-05-20 Mon 10:19:20]
 - 415M-2-Monadnock (2040) (125) [desktop pc, microphone + speaker system, projector, touch panel phone, webcam]
 - 75A-2-Yellowstone (2001) (125) [desktop pc, microphone
 
+
 * Shared document:
 https://docs.google.com/document/d/1-nn3Xuqn2GZ0wzJgxDdN0fxc5GwDsMQLXXhqavip1ZE/edit#heading=h.arv0qyffct5i
+
+* Notes on ardigen sponsorship
+- Dawid phd comp Krawkow
+- SBI2 conference alway
+- Participated in hackathon
+- Preference
+  - Volunteer time
+  - What do they get in return?
+    - Logos
+    - Banners
+    - Willing to dedicate time, but aim to increase visibility
+    - Explore with the hackathon
+
+- Perkin Elmer
+- Data scientist + biologist
+
+* <2024-06-04 Tue> Meeting
+** Registration to be open as soon as possible. Waiting for confirmation from Broad admin department.
+** Will ask SBI2 to add a link on their registration form, and perhaps send an email to current registrants
+** Managed to book the connector between the buildings, which accomodates a lot of people.
+- After they will be distributed across the available rooms at the Broad
+- Fixed:
+  - Registration price ($20)
+  - Rooms (Serengeti connector, M1 and conference rooms all round)
+  - Prizes (1000 from Ardigen + the remaining left of registrations after catering)
+    - One track for the proof-of-concept tool
+    - One track for the best proof-of-concept story
+  - People can come with their own teams or be assigned here based on interest clouds
+    - We ask for broad interests in registrations and allow them to self-assemble based on broad clouds of interest, while aiming for background diversity in each team
+
+- Make registrants' information available (optionally)
+
+** Do we still want to run an online pre-hackathon with CytoData?
+- To test the format and the current tools and documentation to access JUMP
+- To get a better sense of how much can be accomplished in a limited
+
+** Questionnaire
+*** If you plan to come with a team (max 4 people/team) please provide a team name to match you with your teammates: Short text
+*** Do you consider your expertise more on the biology side or computer science side? A: One choice (4 options ranging from one to the other)
+*** What topics interest you the most? (To match people with similar interests - this can range from methodology to applications to disease areas and more): A: Short text
+*** If you have any particular dietary requirements please let us know here. A:Short text
+*** Are you attending the SBI2/Cytodata Annual Meeting Sep 18-20? A: Yes/No
+*** Let us know here if you have any other particular questions, concerns, or need for accommodations. A:Short text
+*** Institution
+*** Demographinc info
+Gender:
+
+    Male
+    Female
+    Non-binary/Third gender
+    Prefer not to say
+    Other (please specify)
+
+Ethnicity/Race:
+
+    Caucasian/White
+    African American/Black
+    Hispanic/Latino
+    Asian/Pacific Islander
+    Native American/Alaska Native
+    Mixed race
+    Other (please specify)
+** Website layout
+Overview of resources for participants
+*** Computational skills requirements/prior knowledge
+*** Schedule
+*** Stuff to eat around the Broad
+*** Getting around
+*** Bathroom locations
+*** Important websites (including self)
+*** Important numbers
+
+* <2024-08-06 Tue> 
+- Arranged catering
+- Arranging AV systems to coordinate the rooms 
+- Arranging how to deliver the prizes
+- Collab notebooks for participants to have access to some compute
+- More tutorials under development
+  - How to measure perturbation replicability
+- Will provide participants with emails of each other if agreed.
+* Website
+
+** Quick overview
+We thrilled to announce that this year, CytoData is joining forces with [SBI2](https://sbi2.org/)! You can take part in the traditional CytoData Hackathon on September 17, and join from September 18-20 for an event supercharged in spatial and morphological profiling.
+
+
+The main goal of this event is to bring together biologists and computer scientists to use [[https://www.broadinstitute.org/imaging/morphological-profiling][Morphological Profiling]] data to gain novel biological insights. You can bring your own question to the event or get together with experts and come up with one here. The idea is for everyone to have fun, learn how to use morphological data to ask/answer biological questions and meet other scientists with similar interests.
+
+We strongly encourage both biologists to apply, regardless of their expertise in computational methods or their familiarity with the field of morphological profiling.
+
+This event is part of the [[https://sbi2.org/conference/][SBI2]]+[[https://www.cytodata.org/symposia/2024/][Cytodata]] events.
+
+** Registration link
+If you want tho register follot [[https://broad.io/hackathon_registration][this]] link, the cost of registration is 20 USD, which aims to cover catering needs.
+Due to space constraints, the number of tickets is limited.
+
+# [[../../main_files/cytodata2024poster.jpg]]
+
+** Agenda
+The Hackathon will occur on September 17th, 2024 at The Broad Institute's Merkin Building: 415 Main St, Cambridge, MA 02142.
+
+|        Time | Agenda                                   |
+|-------------+------------------------------------------|
+| 08:30-09:00 | Registration and light breakfast         |
+| 09:00-10:00 | Introduction                             |
+| 10:00-12:00 | First session                            |
+| 12:00-13:00 | Lunch                                    |
+| 13:00-15:40 | Second session                           |
+| 15:40-16:00 | Coffee break                             |
+| 16:00-17:30 | Third session                            |
+| 17:30-18:00 | Wrap up (5 min) presentations and awards |
+|-------------+------------------------------------------|
+
+** Prizes
+We will offer two different tracks:
+- Best new biological story, or, how can we use JUMP to gain novel biological insight?
+- Best new tool/method, or, how to make JUMP data more accessible/develop a novel processing technique?
+
+For each track there will be a 500 USD prize in giftcards for the winning team.
+
+** FAQ
+*** What is JUMP?
+JUMP stands for Joint Undertaking in Morphological Profiling. You can read more about the project [[https://jump-cellpainting.broadinstitute.org/][here]].
+*** Can I access the data beforehand?
+The data is available right now, and you can see different ways to explore it [[https://broad.io/jump][here]].
+*** Are teams assembled there or can I organize my own team?
+Both options are valid! The registration form contains a section to indicate whether you come with a team or not.
+*** Do you offer fee waivers?
+We are unable to do so this time, but keep tabs on future online events and workshops.
+*** Can I get in touch with other participants and form a team beforehand?
+Yes! The registration form allows you to give consent to share your name, email and interests with the other participants before the event.
+*** More questions?
+Feel free to send an email to [[mailto:amunozgo@broadinstitute.org][amunozgo@broadinstitute.org]].
+
+** Resources for participants
+This section will be updated to concentrate details relevant to participants during the Hackathon.
+
+*** How to get to the Broad Institute?
+See the official [[https://www.broadinstitute.org/getting-here][getting here]] webpage.
+*** Are there places to eat around?
+We will provide lunch and a light breakfast, but there are plenty of cafes and restaurants in the area.
+*** Whereabouts in the building will the event take place?
+The start and lunch events will occur on the sixth floor section that connects 415 Main St. and 75 Ames (the room is called Serengeti).
+For the hacking sessions people will be split between Serengeti and other locations in the M1 floor (Mezzanine)
+There will be Broadies from the Imaging Platform who will show you the two floors and bring you to your floors and give you further indications.
