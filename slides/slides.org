@@ -5,11 +5,12 @@
 #+BEAMER_FRAME_LEVEL: 2
 #+COLUMNS: %45ITEM %10BEAMER_env(Env) %10BEAMER_act(Act) %4BEAMER_col(Col) %8BEAMER_opt(Opt)
 
+* Introduction
 * Overview
 ** Goals
-- Foster collaborations between biologists and computer scientists
-- Learning something new and build (or discover) something that can be followed-up
-- Expose community to the JUMP dataset and its associated tools
+- Foster collaborations between biologists and computer scientists, to match problems and potential solutions
+- Learning something new and build (or discover) something that can be followed-up with further experiments
+- Discover new ways to access and discover new ways to process JUMP profiles
   
 * Schedule
 |                          |        Time |
@@ -18,23 +19,38 @@
 | Break                    | 15:20-15:40 |
 | Presentations and awards | 17:20-18:20 |
 
-* Some ideas, based on known challenges
+* Some example of ideas, based on known challenges
 - How do we connect JUMP information to many other databases?
 - Can consistently identify plate layout effects?
+  - When corrected, how do we evaluate the adjustments?
+- Examples of existing stories can be found 
   
-* Teams and their rooms
-You can check your team on the participants' spreadsheet
-| Teams                 | Room               |
-|-----------------------+--------------------|
-| 1-3                   | Joshua Tree        |
-| 4,5                   | Badlands           |
-| 6,7                   | Crater Lake        |
-| >=8                   | Stay here (Acadia) |
-| Huddle office (11017) | (Available)        |
-
+* Rooms available
+You can check your team and the associated room on the participants' spreadsheet
+- Joshua Tree        
+- Badlands           
+- Crater Lake        
+- Acadia (this room)
+- Huddle office (11017)
+  
+* Best mentor for a specific topic
+| Mentor   | Specialty                          |
+|----------+------------------------------------|
+| Niranj   | Data analysis, Overall JUMP expert |
+| John     | Batch correction, Annotations      |
+| Paula    | Biological Interpretation, Imaging |
+| Jess     | Data analysis/Image                |
+| Tim      | Deep Learning/ Jump metadata       |
+| Hugo     | JUMP Metadata / Tool               |
+|----------+------------------------------------|
+| Alex     | Stats, mAP method                  |
+| Erin     | Biological Interpretation, Imaging |
+| Anne     |                                    |
+| Shantanu |                                    |
 
 * Resources
-- *[[https://broad.io/jump][broad.io/jump]]*: JUMP Hub, including tutorials on how to access and wrangle morphological profiles
+- *[[https://broad.io/jump][broad.io/jump]]*: JUMP Hub, including tutorials, definitions and tips on how to access and wrangle morphological profiles. 
 - *[[https://broad.io/jump_explore][broad.io/jump_explore]]*: Web-browser databases
-- *[[https://broad.io/monorepo][broad.io/monorepo]]*: Additional libraries used by
 - *[[https://github.com/cytomining/copairs][github.com/cytomining/copairs]]*: Library used to find pairs of perturbations and compute metrics between them
+- *[[https://broad.io/monorepo][broad.io/monorepo]]*: Additional libraries used by the Imaging Platform (advanced, docs are WIP)
+- Examples of biological stories based on JUMP data: [[https://github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue][github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue]]
