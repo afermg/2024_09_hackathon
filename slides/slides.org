@@ -17,7 +17,7 @@
 :PROPERTIES:
 :BEAMER_env: fullframe
 :END:
-\fullsizegraphic{../poster/images/background.png}
+\fullsizegraphic{../images/background.png}
   
 * Goals of the event
 - Foster collaborations between biologists and computer scientists, to match problems and potential solutions
@@ -27,6 +27,7 @@
 * Main items in the schedule
 |                          |        Time |
 |--------------------------+-------------|
+| Start                    |        9:30 |
 | Lunch                    | 12:30-13:30 |
 | Break                    | 15:20-15:40 |
 | Presentations and awards | 17:20-18:20 |
@@ -72,11 +73,33 @@ You can check your team and the associated room on the participants' spreadsheet
 - Acadia (this room)
 - Huddle office (11017)
   
+* Acknowledgements
+** Left :BCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+Organizers and sponsors:
+\leavevmode\hphantom{ }
+#+ATTR_LATEX: :width 0.7\linewidth
+[[../images/broad_logo.png]]
+\leavevmode\hphantom{ }
+\leavevmode\hphantom{ }
+#+ATTR_LATEX: :width 0.6\linewidth
+[[../images/cytodata_logo.png]]
+** Right :BCOL:
+:PROPERTIES:
+:BEAMER_col: 0.4
+:END:
+#+ATTR_LATEX: :width 0.9\linewidth
+[[../images/ardigen_logo.png]]
+#+ATTR_LATEX: :width 0.6\linewidth
+[[../images/sbi2-logo.png]]
+
 * Resources
 - *[[https://broad.io/jump][broad.io/jump]]*: JUMP Hub, including tutorials, definitions and tips on how to access and wrangle morphological profiles. 
 - *[[https://broad.io/jump-explore][broad.io/jump-explore]]*: Web-browser databases for no-code exploration
 - *[[https://github.com/cytomining/copairs][github.com/cytomining/copairs]]*: Library used to find pairs of perturbations and compute metrics between them
 - *[[https://broad.io/monorepo][broad.io/monorepo]]*: Additional libraries used by the Imaging Platform (advanced)
-- *[[https://github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue+is%3Aclosed][Examples]]* of biological stories based on JUMP data
+- *[[https://github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue][Examples]]* of existing biological stories based on JUMP data
 
 * Questions?
