@@ -1,31 +1,70 @@
 #+title: 2024 Cytodata Hackathon
+#+date: September 17th, 2024
+#+author: Broad Institute of Harvard and MIT
 #+OPTIONS: ^:nil num:t toc:nil author:nil
 #+LaTeX_CLASS: beamer
+
 #+BEAMER_THEME: metropolis
 #+BEAMER_FRAME_LEVEL: 2
 #+COLUMNS: %45ITEM %10BEAMER_env(Env) %10BEAMER_act(Act) %4BEAMER_col(Col) %8BEAMER_opt(Opt)
-
+#+LATEX_HEADER: \usepackage{textpos}
+#+LATEX_HEADER: \newcommand<>{\fullsizegraphic}[1]{
+#+LATEX_HEADER:   \begin{textblock*}{0cm}(-1cm,-4.155cm)
+#+LATEX_HEADER:   \includegraphics[width=\paperwidth]{#1}
+#+LATEX_HEADER:   \end{textblock*}
+#+LATEX_HEADER: }
 * Introduction
-* Overview
-** Goals
-- Foster collaborations between biologists and computer scientists, to match problems and potential solutions
-- Learning something new and build (or discover) something that can be followed-up with further experiments
-- Discover new ways to access and discover new ways to process JUMP profiles
+:PROPERTIES:
+:BEAMER_env: fullframe
+:END:
+\fullsizegraphic{../poster/images/background.png}
   
-* Schedule
+* Goals of the event
+- Foster collaborations between biologists and computer scientists, to match problems and potential solutions
+- Build a new tool to extract biological insights from JUMP, or discover something that can be followed-up with further experiments
+- Showcase how to access the latest JUMP morphological profiles and explore new ways to process them
+  
+* Main items in the schedule
 |                          |        Time |
 |--------------------------+-------------|
 | Lunch                    | 12:30-13:30 |
 | Break                    | 15:20-15:40 |
 | Presentations and awards | 17:20-18:20 |
 
-* Some example of ideas, based on known challenges
-- How do we connect JUMP information to many other databases?
-- Can consistently identify plate layout effects?
-  - When corrected, how do we evaluate the adjustments?
-- Examples of existing stories can be found 
+* Notes
+- The two tracks of the Hackathon are "best tool/method" and "best biological story"
+- Teams will spread across the four conference rooms in this floor, including here
+- All rooms will be connected on a Zoom call
+- Mentors with biological and/or computational expertise will float around to help teams
+- If you need to go outside just let us know when you are back to have someone pick you up
+- Presentations at the end of the day will be five minutes per team
   
-* Rooms available
+* Evaluation criteria
+- Problem definition: Is the biological/technical problem well-defined?
+- Creativity: How well does the team leverage existing tools to solve their problem? Are there any out-of-the-box ideas or methods?
+- Potential: How much potential does the idea have to become a product (i.e., article, software)
+- Execution: The quality of the implementation and presentation.
+
+* Examples of project ideas
+- How do we connect JUMP information to many other databases?
+- Can we consistently identify plate layout effects?
+  - Upon corrections of layout effects, how do we evaluate an improvement?
+- Which chemical compounds that result in extreme phenotypes are found in JUMP?
+- Specific biological stories (link on =Resources= slide)
+  
+* Mentors
+| Mentor | Focuses on                               |
+|--------+------------------------------------------|
+| Anne   | Biological Interpretation, Imaging       |
+| Paula  | Biological Interpretation, Imaging       |
+| Niranj | Data analysis, Overall JUMP expert       |
+| Jess   | Data analysis, Biological Interpretation |
+| Tim    | Tool-development, Spatial Bio            |
+| Hugo   | JUMP bespoke tools, Chemoinformatics |
+| John   | Batch correction, External annotations   |
+| Alex   | Statistics, mAP method                   |
+
+* Conference rooms
 You can check your team and the associated room on the participants' spreadsheet
 - Joshua Tree        
 - Badlands           
@@ -33,24 +72,11 @@ You can check your team and the associated room on the participants' spreadsheet
 - Acadia (this room)
 - Huddle office (11017)
   
-* Best mentor for a specific topic
-| Mentor   | Specialty                          |
-|----------+------------------------------------|
-| Niranj   | Data analysis, Overall JUMP expert |
-| John     | Batch correction, Annotations      |
-| Paula    | Biological Interpretation, Imaging |
-| Jess     | Data analysis/Image                |
-| Tim      | Deep Learning/ Jump metadata       |
-| Hugo     | JUMP Metadata / Tool               |
-|----------+------------------------------------|
-| Alex     | Stats, mAP method                  |
-| Erin     | Biological Interpretation, Imaging |
-| Anne     |                                    |
-| Shantanu |                                    |
-
 * Resources
 - *[[https://broad.io/jump][broad.io/jump]]*: JUMP Hub, including tutorials, definitions and tips on how to access and wrangle morphological profiles. 
-- *[[https://broad.io/jump_explore][broad.io/jump_explore]]*: Web-browser databases
+- *[[https://broad.io/jump-explore][broad.io/jump-explore]]*: Web-browser databases for no-code exploration
 - *[[https://github.com/cytomining/copairs][github.com/cytomining/copairs]]*: Library used to find pairs of perturbations and compute metrics between them
-- *[[https://broad.io/monorepo][broad.io/monorepo]]*: Additional libraries used by the Imaging Platform (advanced, docs are WIP)
-- Examples of biological stories based on JUMP data: [[https://github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue][github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue]]
+- *[[https://broad.io/monorepo][broad.io/monorepo]]*: Additional libraries used by the Imaging Platform (advanced)
+- *[[https://github.com/broadinstitute/2023_12_JUMP_data_only_vignettes/issues?q=is%3Aissue+is%3Aclosed][Examples]]* of biological stories based on JUMP data
+
+* Questions?
