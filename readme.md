@@ -2,6 +2,8 @@
 
 This repository contains the resources produced for and by the participants of the 2024 Cytodata Hackathon held at the Broad Institute on the 17th of September, 2024.
 
+
+All resources related with JUMP data analysis can be found at [broad.io/jump](https://broad.io/jump)
 There are multiple slides:
 - The [Hackathon highlights](https://github.com/afermg/2024_09_hackathon/blob/main/Cytodata%20Hackathon%20Highlights.pdf).
 - All the participants' [presentations](https://github.com/afermg/2024_09_hackathon/blob/main/Cytodata%20presentations.pdf).
