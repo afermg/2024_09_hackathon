@@ -5,4 +5,4 @@ This repository contains the resources produced for and by the participants of t
 There are multiple slides:
 - The [Hackathon highlights](https://github.com/afermg/2024_09_hackathon/blob/main/Cytodata%20Hackathon%20Highlights.pdf).
 - All the participants' [presentations](https://github.com/afermg/2024_09_hackathon/blob/main/Cytodata%20presentations.pdf).
-The [welcoming slides](https://github.com/afermg/2024_09_hackathon/blob/main/slides/slides.pdf) for participants with more resources.
+- The [welcoming slides](https://github.com/afermg/2024_09_hackathon/blob/main/slides/slides.pdf) for participants with more resources.
